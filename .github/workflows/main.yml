@@ -32,7 +32,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Build Debug APK
-        working-directory: build-project
+        working-directory: build-project/RayZR-Care
         run: gradle assembleDebug
 
       - name: Upload RayZR Care APK
